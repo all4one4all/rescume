@@ -1,0 +1,170 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #f2f4f5;
+  font-size: 16px;
+  color: #323235; }
+
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+a:hover,
+a:link,
+a:visited {
+  text-decoration: none;
+  color: inherit; }
+
+.one .content {
+  text-align: center;
+  font-weight: bold; }
+  .one .content .photo {
+    margin: auto;
+    margin-bottom: 1rem;
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    background: url("lib/wz.JPG");
+    background-size: 10rem;
+    background-position: 0 -1rem; }
+  .one .content .name {
+    font-size: 2rem;
+    margin-bottom: 1rem; }
+  .one .content .intro {
+    font-size: 1.1rem; }
+    .one .content .intro div {
+      margin-bottom: .5rem; }
+
+.two {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .two .content {
+    text-align: center;
+    font-weight: bold; }
+    .two .content .title {
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      font-size: 1.5rem; }
+    .two .content .about {
+      margin-bottom: 1rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 1.2rem;
+      color: #454545;
+      /*color: #4c4c4c;*/ }
+      .two .content .about .img_01 {
+        margin: auto;
+        width: 4rem;
+        height: 4rem;
+        background: url("lib/img_02.png");
+        background-size: 12rem 4rem; }
+      .two .content .about .img_02 {
+        margin: auto;
+        width: 4rem;
+        height: 4rem;
+        background: url("lib/img_03.png");
+        background-position: -4rem 0;
+        background-size: 12rem 4rem; }
+      .two .content .about .img_03 {
+        margin: auto;
+        width: 4rem;
+        height: 4rem;
+        background: url("lib/img_04.png");
+        background-position: -8rem 0;
+        background-size: 12rem 4rem; }
+    .two .content .text {
+      margin: 0 2rem;
+      padding: .5rem;
+      text-indent: 2rem;
+      text-align: left;
+      line-height: 2rem;
+      /* border: .2rem dotted #454545;
+       border-radius: 1rem;
+       background: #dbe7f4;*/ }
+    .two .content .skills {
+      display: flex;
+      justify-content: center;
+      line-height: 2rem;
+      font-size: 1.2rem; }
+      .two .content .skills li {
+        margin-bottom: .5rem;
+        display: flex;
+        justify-content: start;
+        align-items: center; }
+        .two .content .skills li .circular {
+          height: 3rem;
+          width: 3rem;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 50%;
+          /*background: #c2c2c2;*/
+          background: #5fcdf7;
+          color: white;
+          border: .1rem solid #0305a7;
+          font-size: 1rem; }
+        .two .content .skills li div {
+          margin-left: 1rem;
+          text-align: left;
+          color: #060665; }
+    .two .content .honor {
+      margin-left: 1rem;
+      display: flex;
+      justify-content: center; }
+      .two .content .honor .tree {
+        position: relative;
+        width: 3.5rem; }
+        .two .content .honor .tree .circular {
+          position: relative;
+          z-index: 2;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          box-sizing: border-box;
+          width: 3rem;
+          height: 3rem;
+          border: .1rem solid #03066d;
+          border-radius: 50%;
+          background: #fff201;
+          color: #03066d;
+          font-weight: bold; }
+        .two .content .honor .tree .line_t {
+          position: absolute;
+          transform: translateX(-50%);
+          top: 0;
+          left: 1.5rem;
+          z-index: 1;
+          width: .15rem;
+          height: 26rem;
+          background: #03066d; }
+        .two .content .honor .tree .y7 {
+          margin-bottom: 8rem; }
+        .two .content .honor .tree .y6 {
+          margin-bottom: 4rem; }
+        .two .content .honor .tree .y5 {
+          margin-bottom: 2rem; }
+      .two .content .honor li {
+        text-align: left;
+        font-size: 1.1rem; }
+      .two .content .honor ul.y7 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 3rem 0;
+        height: 8rem; }
+      .two .content .honor ul.y6 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-bottom: 3rem;
+        height: 4rem; }
+      .two .content .honor ul.y5 {
+        display: flex;
+        justify-content: center;
+        height: 2rem; }
+
+/*# sourceMappingURL=main.css.map */
